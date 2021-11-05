@@ -6,7 +6,7 @@ import { addWinsToPlayers, preparePlayerdata } from "../helpers/playerHelpers";
 
 const PlayerList = (props) => {
   const playerDataArray = preparePlayerdata(playerData);
-  const parsedPlayerData = addWinsToPlayers(playerDataArray, matchData);
+  const parsedPlayerData = addWinsToPlayers(playerDataArray, props.matchData);
   const onePlayer = parsedPlayerData[0]
   // console.log(playerDataArray)
   // console.log('parsed', parsedPlayerData)
