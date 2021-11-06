@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Tourney App w/React
+=======
+# Tourney Matches App
+>>>>>>> 43d93484db6252433e72fccc6a93b0b7233ab507
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
